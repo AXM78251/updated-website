@@ -4,7 +4,7 @@ import Resume from "../resume-folder/final-resume.pdf"
 
 function RightNav() {
   return (
-    <div className = "rightnav fadein-right">
+    <div className = "rightnav fadein-right fadein-bottom">
       <Element name = "about" className = "about-me rightnav-elements">
         <h3 className = "sticky-top"> About Me</h3>
         <p>

@@ -9,7 +9,7 @@ function LeftNav() {
   const [activeIndex, setActiveIndex] = useState(null);
 
   return (
-    <div className = "leftnav fadein-left">
+    <div className = "leftnav fadein-left fadein-top">
         <div className = "name-title leftnav-child">
             <Link className = "link" activeClass = "active" to="about" spy = {true} smooth={true} offset = {0} duration={750}>
               <h1> Anthony Salinas Suarez </h1>
