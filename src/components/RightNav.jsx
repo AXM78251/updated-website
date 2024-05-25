@@ -32,14 +32,18 @@ function RightNav() {
             <p> Jan. 2023 - May 2024 </p>
           </div>
           <div className = "content-exp">
-            <h4> &mdash; University of California, Berkeley &#x2197;</h4>
-            <h5> &bull; Computer Architecture Student Instructor &bull;</h5>
-            <p> 
-              Instructed a discussion section for 40+ students. Helped prepare lectures and worksheets, held office hours, and offered 
-              support to 700+ students in the course entitled CS61C: Great Ideas of Computer Architecture (Machine Structures) offered at 
-              the University of California, Berkeley. Course material included: machine architecture, principles & logic of digital systems, 
-              operating systems, CPU design, RISC-V, and C. 
-            </p>
+            <div>
+              <h4> &mdash; University of California, Berkeley &#x2197;</h4>
+              <h5> &bull; Computer Architecture Student Instructor &bull;</h5>
+              <p> 
+                Instructed a discussion section for 40+ students. Helped prepare lectures and worksheets, held office hours, and offered 
+                support to 700+ students in the course entitled CS61C: Great Ideas of Computer Architecture (Machine Structures) offered at 
+                the University of California, Berkeley. Course material included: machine architecture, principles & logic of digital systems, 
+                operating systems, CPU design, RISC-V, and C. 
+              </p>
+            </div>
+            <div className = "symbols-container">
+            </div>
           </div>
         </div>
         <div className = "exp-container" onClick={() => window.open('https://www.modalai.com/', '_blank')}>
@@ -80,7 +84,7 @@ function RightNav() {
             <h4> &bull; Personal Portfolio &bull; </h4>
             <p>
               Created a new personal portfolio website to showcase all the projects I have embarked on and all the experiences I have accumulated throughout 
-              the past few years. This project was built using React.js, HTML5, and CSS and is hosted on Netlify. Special thanks to Brittany Chaing and 
+              the past few years. This project was built using React.js, HTML5, and CSS and is hosted on Netlify. Special thanks to Brittany Chiang and 
               their website (https://brittanychiang.com/) for inspiration on this project! 
             </p>
           </div>

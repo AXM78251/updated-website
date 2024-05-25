@@ -6,6 +6,12 @@
   margin-top: 5%;
 }
 
+.symbol {
+  border: 2px outset;
+  padding: 1%;
+  border-radius: 25%;
+}
+
 .parting-thoughts {
   font-size: 0.9em;
   text-align: left;
