@@ -325,11 +325,11 @@ redirections {
 
   .leftnav {
     position: static;
-    width: 100%;
+    width: 90%;
   }
 
   .rightnav {
-    width: 100%;
+    width: 90%;
     margin-left: 0;
   }
 
