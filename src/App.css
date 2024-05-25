@@ -359,4 +359,8 @@ redirections {
     transform: none;
     transition: none;
   }
+
+  .con-inps {
+    width: 100%;
+  }
 }

@@ -77,7 +77,7 @@ function RightNav() {
             <p> May 2024 </p>
           </div>
           <div className = "content-exp">
-            <h4> &bull; Personal Portfolio &#x2197; </h4>
+            <h4> &bull; Personal Portfolio &bull; </h4>
             <p>
               Created a new personal portfolio website to showcase all the projects I have embarked on and all the experiences I have accumulated throughout 
               the past few years. This project was built using React.js, HTML5, and CSS and is hosted on Netlify. Special thanks to Brittany Chaing and 
@@ -97,7 +97,7 @@ function RightNav() {
             </p>
           </div>
         </div>
-        <div className = "proj-container" onClick={() => window.open('https://anthonysalinassuarez.com/', '_blank')}>
+        <div className = "proj-container" onClick={() => window.open('https://anthony-salinas-suarez.netlify.app/', '_blank')}>
           <div className = "date-exp">
             <p> August 2023 </p>
           </div>
