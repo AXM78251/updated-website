@@ -18,6 +18,8 @@
 }
 
 .resume-container:hover {
+  transition: color 0.3s ease;
+  color: #8fa1c1;
   cursor: pointer;
 }
 
