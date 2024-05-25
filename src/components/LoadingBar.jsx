@@ -14,16 +14,16 @@ const LoadingBar = ({onComplete}) => {
             }
             return prev + 1;
           });
-        }, 30);
+        }, 10);
     
         return () => clearInterval(interval);
       }, [onComplete]);
 
     return (
-        <div className="loading-container">
-            <div className="loading-content">
-                <div className="loading-bar" style={{ width: `${progress}%` }}></div>
-                <div className="loading-text">Loading...</div>
+        <div className = "load-con">
+            <div className = "content">
+                <div className = "load-bar" style ={{ width: `${progress}%` }}></div>
+                <div className = "load-text">Loading...</div>
             </div>
         </div>
     );
