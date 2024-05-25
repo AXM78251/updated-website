@@ -6,7 +6,7 @@ function RightNav() {
   return (
     <div className = "rightnav fadein-right">
       <Element name = "about" className = "about-me rightnav-elements">
-        <h3> About Me</h3>
+        <h3 className = "sticky-top"> About Me</h3>
         <p>
           Welcome to my website! I am glad to have you here! I made this website with the hopes of sharing a bit about myself 
           and to showcase the different skills and experiences I have accumulated as a graduate with a major in Electrical Engineering 
@@ -26,7 +26,7 @@ function RightNav() {
         </p>
       </Element>
       <Element name = "exp" className = "experience rightnav-elements">
-        <h3> Experience </h3>
+        <h3 className = "sticky-top" > Experience </h3>
         <div className = "exp-container first-con" onClick={() => window.open('https://cs61c.org/sp24/', '_blank')}>
           <div className = "date-exp">
             <p> Jan. 2023 - May 2024 </p>
@@ -71,7 +71,7 @@ function RightNav() {
         </div>
       </Element>
       <Element name = "projs" className = "projects rightnav-elements">
-        <h3> Projects </h3>
+        <h3 className = "sticky-top" > Projects </h3>
         <div className = "proj-container first-con">
           <div className = "date-exp">
             <p> May 2024 </p>
@@ -137,7 +137,7 @@ function RightNav() {
         </div>
       </Element>
       <Element name = "resu" className = "resume rightnav-elements">
-        <h3> Resume </h3>
+        <h3 className = "sticky-top" > Resume </h3>
         <div className = "resume-container" onClick={() => window.open(Resume, '_blank')}>
           <p>
             Click here to view my resume! 
@@ -145,7 +145,7 @@ function RightNav() {
         </div>
       </Element>
       <Element name = "contact" className = "contacts rightnav-elements">
-        <h3> Contact Me </h3>
+        <h3 className = "sticky-top"> Contact Me </h3>
         <p>
           Fill out this form if you'd like to send me an email or if you'd prefer, then please visit one of my other available social media platforms! 
         </p>
@@ -166,6 +166,12 @@ function RightNav() {
           </form>
         </div>
       </Element>
+      <div className = "parting-thoughts">
+        <p className = "parting-thoughts"> 
+          This website was built using React.js, HTML5, and CSS. Massive thanks to Brittany Chiang and their website, 
+          https://brittanychiang.com for the inspiration on this website. 
+        </p>
+      </div>
     </div>
   )
 }

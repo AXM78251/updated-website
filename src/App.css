@@ -6,6 +6,11 @@
   margin-top: 5%;
 }
 
+.parting-thoughts {
+  font-size: 0.9em;
+  text-align: left;
+}
+
 .resume-container:hover {
   cursor: pointer;
 }
@@ -310,5 +315,48 @@ redirections {
   100% {
     opacity: 1;
     transform: translateX(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .leftnav {
+    position: static;
+    width: 100%;
+  }
+
+  .rightnav {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .redirections {
+    display: none;
+  }
+
+  .sticky-top {
+    position: sticky; 
+    top: 0;
+    z-index: 1000;
+    background-color: #23272a;
+    margin: 0;
+    height: 50px;
+  }
+
+  .logos:hover {
+    transform: none;
+  }
+
+  .exp-container:hover {
+    transform: none;
+    transition: none;
+  }
+
+  .proj-container {
+    transform: none;
+    transition: none;
   }
 }
