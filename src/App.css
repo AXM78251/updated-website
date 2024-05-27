@@ -6,10 +6,22 @@
   margin-top: 5%;
 }
 
+.symbols-container {
+  display: flex;
+  flex-direction: row; 
+  flex-wrap: wrap;
+}
+
 .symbol {
-  border: 2px outset;
-  padding: 1%;
-  border-radius: 25%;
+  padding: 3px;
+  min-width: 40px;
+  text-align: center;
+  border-radius: 25px 25px;
+  background-color: #455a64;
+  border: 2px solid #455a64;
+  font-size: 0.8em;
+  margin-right: 15px;
+  margin-bottom: 15px;
 }
 
 .parting-thoughts {

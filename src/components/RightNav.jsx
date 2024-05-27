@@ -18,7 +18,7 @@ function RightNav() {
         <p>
           Outside of academics and my technical background, I am deeply passionate about music and am self-taught in guitar via youtube 
           tutorials. As of recently, I also started to work out and have begun trying to explore as many hiking trails as possible in my 
-          native hometown of San Diego! 
+          native hometown! 
         </p>
         <p>
           Please feel free to take a look around and also be sure to scroll to the bottom where you can write a personalized message 
@@ -43,6 +43,18 @@ function RightNav() {
               </p>
             </div>
             <div className = "symbols-container">
+              <span className = "symbol">
+                C
+              </span>
+              <span className = "symbol">
+                RISC-V
+              </span>
+              <span className = "symbol">
+                SIMD Intrinsics
+              </span>
+              <span className = "symbol">
+                OpenMP
+              </span>
             </div>
           </div>
         </div>
@@ -51,13 +63,35 @@ function RightNav() {
             <p> May 2023 - Aug. 2023 </p>
           </div>
           <div className = "content-exp">
-            <h4> &mdash; ModalAI &#x2197;</h4>
-            <h5> &bull; Software Engineering Intern &bull;</h5>
-            <p> 
-              Worked on VOXL Portal, a web user interface that allows for camera inspection and debugging tools and hosted on VOXL, ModalAI's 
-              fully autonomous computing platform. Gained valuable experience with tools such as Mongoose, an embedded network server and network library 
-              written in C/C++, and Websockets, a tool in Javascript that allows for bi-directional communication between a browser and server. 
-            </p>
+            <div>
+              <h4> &mdash; ModalAI &#x2197;</h4>
+              <h5> &bull; Software Engineering Intern &bull;</h5>
+              <p> 
+                Worked on VOXL Portal, a web user interface that allows for camera inspection and debugging tools and hosted on VOXL, ModalAI's 
+                fully autonomous computing platform. Gained valuable experience with tools such as Mongoose, an embedded network server and network library 
+                written in C/C++, and Websockets, a tool in Javascript that allows for bi-directional communication between a browser and server. 
+              </p>
+            </div>
+            <div className = "symbols-container">
+              <span className = "symbol">
+                C++
+              </span>
+              <span className = "symbol">
+                Javascript
+              </span>
+              <span className = "symbol">
+                Next.js
+              </span>
+              <span className = "symbol">
+                HTML5 & CSS
+              </span>
+              <span className = "symbol">
+                Websockets
+              </span>
+              <span className = "symbol">
+                Mongoose
+              </span>
+            </div>
           </div>
         </div>
         <div className = "exp-container" onClick={() => window.open('https://inst.eecs.berkeley.edu/~cs61c/fa22/', '_blank')}>
@@ -65,12 +99,28 @@ function RightNav() {
             <p> Aug. 2023 - Dec. 2023 </p>
           </div>
           <div className = "content-exp">
-            <h4> &mdash; University of California, Berkeley &#x2197;</h4>
-            <h5> &bull; Computer Architecture Tutor &bull;</h5>
-            <p> 
-              Instructed a weekly tutoring section of 5+ students and held office hours. Responsibilities also included preparing mini-lectures and worksheets 
-              that would aid students in exploring the course material more thoroughly and through a variety of learning modalities. 
-            </p>
+            <div>
+              <h4> &mdash; University of California, Berkeley &#x2197;</h4>
+              <h5> &bull; Computer Architecture Tutor &bull;</h5>
+              <p> 
+                Instructed a weekly tutoring section of 5+ students and held office hours. Responsibilities also included preparing mini-lectures and worksheets 
+                that would aid students in exploring the course material more thoroughly and through a variety of learning modalities. 
+              </p>
+            </div>
+            <div className = "symbols-container">
+              <span className = "symbol">
+                C
+              </span>
+              <span className = "symbol">
+                RISC-V
+              </span>
+              <span className = "symbol">
+                SIMD Intrinsics
+              </span>
+              <span className = "symbol">
+                OpenMP
+              </span>
+            </div>
           </div>
         </div>
       </Element>
@@ -81,12 +131,26 @@ function RightNav() {
             <p> May 2024 </p>
           </div>
           <div className = "content-exp">
-            <h4> &bull; Personal Portfolio &bull; </h4>
-            <p>
-              Created a new personal portfolio website to showcase all the projects I have embarked on and all the experiences I have accumulated throughout 
-              the past few years. This project was built using React.js, HTML5, and CSS and is hosted on Netlify. Special thanks to Brittany Chiang and 
-              their website (https://brittanychiang.com/) for inspiration on this project! 
-            </p>
+            <div>
+              <h4> &bull; Personal Portfolio &bull; </h4>
+              <p>
+                Developed a new personal portfolio website to showcase all prior projects and experiences. 
+              </p>
+            </div>
+            <div className = "symbols-container">
+              <span className = "symbol">
+                React.js
+              </span>
+              <span className = "symbol">
+                HTML5 & CSS
+              </span>
+              <span className = "symbol">
+                JSX
+              </span>
+              <span className = "symbol">
+                Netlify
+              </span>
+            </div>
           </div>
         </div>
         <div className = "proj-container" onClick={() => window.open('https://cal-cs184-student.github.io/hw-webpages-sp24-AXM78251/hw3/docs/index.html', '_blank')}>
@@ -94,11 +158,21 @@ function RightNav() {
             <p> Spring 2024 </p>
           </div>
           <div className = "content-exp">
-            <h4> &bull; Path Tracer &#x2197; </h4>
-            <p>
-              Implemented a physically-based renderer, on the CPU, using a pathtracing algorithm. Renderer relies on ray-scene intersections, 
-              acceleration structures like bounding volume hierarchy (BVH), and physically based lighting and material models. 
-            </p>
+            <div>
+              <h4> &bull; Path Tracer &#x2197; </h4>
+              <p>
+                Implemented a physically-based renderer, on the CPU, using a pathtracing algorithm. Renderer relies on ray-scene intersections, 
+                acceleration structures like bounding volume hierarchy (BVH), and physically based lighting and material models. 
+              </p>
+            </div>
+            <div className = "symbols-container">
+              <span className = "symbol">
+                C++
+              </span>
+              <span className = "symbol">
+                OpenGL
+              </span>
+            </div>
           </div>
         </div>
         <div className = "proj-container" onClick={() => window.open('https://anthony-salinas-suarez.netlify.app/', '_blank')}>
@@ -106,10 +180,23 @@ function RightNav() {
             <p> August 2023 </p>
           </div>
           <div className = "content-exp">
-            <h4> &bull; Old Personal Portfolio &#x2197; </h4>
-            <p>
-              First iteration of my personal website that was also built with React.js, HTML5, and CSS. 
-            </p>
+            <div>
+              <h4> &bull; Old Personal Portfolio &#x2197; </h4>
+              <p>
+                First iteration of personal website built with React.js, HTML5, and CSS. 
+              </p>
+            </div>
+            <div className = "symbols-container">
+              <span className = "symbol">
+                React.js
+              </span>
+              <span className = "symbol">
+                HTML5 & CSS
+              </span>
+              <span className = "symbol">
+                Netlify
+              </span>
+            </div>
           </div>
         </div>
         <div className = "proj-container" onClick={() => window.open('https://inst.eecs.berkeley.edu/~cs162/fa23/static/proj/pintos-docs/', '_blank')}>
@@ -117,12 +204,28 @@ function RightNav() {
             <p> Fall 2023 </p>
           </div>
           <div className = "content-exp">
-            <h4> &bull; PintOS &#x2197; </h4>
-            <p>
-              Led development of an x86 OS in C with a team of four. Designed user program interactions, priority scheduler,
-              synchronization, and multithreading. Created an inode-based file system with buffer cache, supporting extensible files and
-              subdirectories. Optimized file system for efficient reads and writes.
-            </p>
+            <div>
+              <h4> &bull; PintOS &#x2197; </h4>
+              <p>
+                Led development of an x86 OS in C with a team of four. Designed user program interactions, priority scheduler,
+                synchronization, and multithreading. Created an inode-based file system with buffer cache, supporting extensible files and
+                subdirectories. Optimized file system for efficient reads and writes.
+              </p>
+            </div>
+            <div className = "symbols-container">
+              <span className = "symbol">
+                x86
+              </span>
+              <span className = "symbol">
+                OS
+              </span>
+              <span className = "symbol">
+                C
+              </span>
+              <span className = "symbol">
+                Pthreads
+              </span>
+            </div>
           </div>
         </div>
         <div className = "proj-container" onClick={() => window.open('https://docs.google.com/document/d/1NXqEPG0rr9f2mRSYgvSkcOAcQjKoA5DtJ7p4fSOoZa0/edit?usp=sharing', '_blank')}>
@@ -130,13 +233,23 @@ function RightNav() {
             <p> Fall 2022 </p>
           </div>
           <div className = "content-exp">
-            <h4> &bull; Cryptographic File System &#x2197; </h4>
-            <p>
-              Developed a google drive cryptographic file system in Golang. Key features: user authentication,
-              multiple user sessions, file storing, editing, loading, sharing, and revocation. Utilized cryptographic functions when storing
-              information on the server side database in order to preserve secrecy in communications between clients, and allow any malicious
-              behavior to be detected. Implemented efficient algorithms for inserting and fetching files.
-            </p>
+            <div>
+              <h4> &bull; Cryptographic File System &#x2197; </h4>
+              <p>
+                Developed a google drive cryptographic file system in Golang. Key features: user authentication,
+                multiple user sessions, file storing, editing, loading, sharing, and revocation. Utilized cryptographic functions when storing
+                information on the server side database in order to preserve secrecy in communications between clients, and allow any malicious
+                behavior to be detected. Implemented efficient algorithms for inserting and fetching files.
+              </p>
+            </div>
+            <div className = "symbols-container">
+              <span className = "symbol">
+                Golang
+              </span>
+              <span className = "symbol">
+                Cryptography
+              </span>
+            </div>
           </div>
         </div>
       </Element>
@@ -173,7 +286,7 @@ function RightNav() {
       <div className = "parting-thoughts">
         <p className = "parting-thoughts"> 
           This website was built using React.js, HTML5, and CSS. Massive thanks to Brittany Chiang and their website, 
-          https://brittanychiang.com for the inspiration on this website. 
+          https://brittanychiang.com for inspiration on website theme and layout. 
         </p>
       </div>
     </div>
