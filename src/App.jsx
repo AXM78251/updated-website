@@ -28,7 +28,7 @@ function App() {
   return (
     <>
       {loading ? ( <LoadingBar onComplete={handleLoadingComplete} /> ) : 
-          (<div className = "container">
+          (<div className = "main-container">
           <LeftNav/>
           <RightNav/>
         </div>)

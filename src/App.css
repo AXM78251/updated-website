@@ -6,6 +6,15 @@
   margin-top: 5%;
 }
 
+.inspiration-website {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.inspiration-website:visited {
+  color: rgba(255, 255, 255, 0.87);
+}
+
 .symbols-container {
   display: flex;
   flex-direction: row; 
@@ -251,9 +260,10 @@ redirections {
   font-size: 1.25em;
 }
 
-.container {
+.main-container {
   display: flex;
   top: 0%;
+  margin-bottom: 70px;
 }
 
 .leftnav {
@@ -339,7 +349,7 @@ redirections {
 }
 
 @media (max-width: 768px) {
-  .container {
+  .main-container {
     flex-direction: column;
   }
 

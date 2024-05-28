@@ -285,8 +285,12 @@ function RightNav() {
       </Element>
       <div className = "parting-thoughts">
         <p className = "parting-thoughts"> 
-          This website was built using React.js, HTML5, and CSS. Massive thanks to Brittany Chiang and their website, 
-          https://brittanychiang.com for inspiration on website theme and layout. 
+          This website was built from scratch using React.js, HTML5, and CSS, however, massive thanks to Brittany Chiang and their website,
+          which you can check out at,
+          <a href = "https://brittanychiang.com" className = "inspiration-website" target = "_blank" rel="noopener noreferrer"> 
+           &nbsp;https://brittanychiang.com&nbsp; 
+          </a> 
+          for inspiration on website theme and layout so please be sure to check out Brittany's website! 
         </p>
       </div>
     </div>
