@@ -63,6 +63,17 @@ function LeftNav() {
               </a>
             </div>
         </div>
+        <div className = "spotify-container">
+          <iframe
+            style={{ borderRadius: '12px', backgroundColor: '#304068' }}
+            src="https://open.spotify.com/embed/playlist/3gkTnIG2dHkhcBCnxgcDc1?utm_source=generator"
+            frameBorder="0"
+            allowFullScreen
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+            className = "spotify-playlist"
+          ></iframe>
+        </div>
     </div>
   )
 }
