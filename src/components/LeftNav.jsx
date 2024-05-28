@@ -65,7 +65,7 @@ function LeftNav() {
         </div>
         <div className = "spotify-container">
           <iframe
-            style={{ borderRadius: '12px', backgroundColor: '#304068' }}
+            style={{ borderRadius: '12px'}}
             src="https://open.spotify.com/embed/playlist/3gkTnIG2dHkhcBCnxgcDc1?utm_source=generator"
             frameBorder="0"
             allowFullScreen

@@ -192,6 +192,10 @@ input::placeholder, textarea::placeholder {
   cursor: pointer;
 }
 
+.name-title h3 {
+  margin: 0;
+}
+
 .rightnav-elements{
   text-align: left;
   margin-top: 25%;
@@ -237,15 +241,15 @@ input::placeholder, textarea::placeholder {
   object-position: top;
 }
 
-redirections {
-  height: 1%;
+.redirections {
+  margin: 7.5% 0;
 }
 
 .redirections ul{
   list-style-type: none;
   padding: 0;
-  margin: 0;
-  margin-bottom: 10%;
+  height: 100%;
+  margin: 0%;
 }
 
 .redirections ul li {
